@@ -1,0 +1,38 @@
+[INFO] 11:56:50:526 CPU/(23529:23529): Connected to UMC - Message: The server has accepted your connection!
+[INFO] 11:56:50:526 CPU/(23529:23529): Receiving frame size
+[INFO] 11:56:50:526 CPU/(23529:23529): Tamanio de pagina: 64
+[INFO] 11:56:50:526 CPU/(23529:23529): CPU connected to UMC successfully
+[INFO] 11:56:50:527 CPU/(23529:23529): Connected to NUCLEO - Message: The server has accepted your connection!
+[INFO] 11:56:50:527 CPU/(23529:23529): Receiving stack size (number of pages for PID stack)
+[INFO] 11:56:50:527 CPU/(23529:23529): Tamanio de stack: 8
+[INFO] 11:56:50:527 CPU/(23529:23529): CPU connected to NUCLEO successfully
+[INFO] 11:56:50:527 CPU/(23529:23529): Waiting new PCB from NUCLEO....
+[INFO] 11:57:05:992 CPU/(23529:23529): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 11:57:05:992 CPU/(23529:23529): Construyendo PCB para PID #1
+[INFO] 11:57:05:993 CPU/(23529:23529): Tamanio indice Codigo 44 - Cantidad de elementos indice de codigo 5 - Proceso '1'
+[INFO] 11:57:05:993 CPU/(23529:23529): Tamanio indice stack 0 - Proceso '1'
+[INFO] 11:57:05:993 CPU/(23529:23529): funcion: 'etiqueta'
+[INFO] 11:57:05:993 CPU/(23529:23529): posicionDeLaEtiqueta: 0
+[INFO] 11:57:05:993 CPU/(23529:23529): Tamanio indice de Etiquetas 13 - Proceso '1'
+[INFO] 11:57:05:993 CPU/(23529:23529): El PCB del proceso '1' fue recibido correctamente
+[INFO] 11:57:05:993 CPU/(23529:23529): Contexto de ejecucion recibido - Process ID : 1 - PC : 0
+[INFO] 11:57:13:77 CPU/(23529:23529): PID: '1' - Current program line: '0' - Instruction --> 	wait c
+
+[INFO] 11:57:13:78 CPU/(23529:23529):  'waitPrimitive' 
+[INFO] 11:57:13:115 CPU/(23529:23529): PID: #1 - Process is being blocked by semaphore 'c'
+[INFO] 11:57:14:116 CPU/(23529:23529): PID: '1' - Sending PCB after semaphore block
+[INFO] 11:57:14:116 CPU/(23529:23529): Destroy PCB processed...
+[INFO] 11:57:14:116 CPU/(23529:23529): Waiting new PCB from NUCLEO....
+[INFO] 11:57:39:280 CPU/(23529:23529): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 11:57:39:280 CPU/(23529:23529): Construyendo PCB para PID #1
+[INFO] 11:57:39:280 CPU/(23529:23529): Tamanio indice Codigo 44 - Cantidad de elementos indice de codigo 5 - Proceso '1'
+[INFO] 11:57:39:280 CPU/(23529:23529): Tamanio indice stack 0 - Proceso '1'
+[INFO] 11:57:39:280 CPU/(23529:23529): funcion: 'etiqueta'
+[INFO] 11:57:39:280 CPU/(23529:23529): posicionDeLaEtiqueta: 0
+[INFO] 11:57:39:280 CPU/(23529:23529): Tamanio indice de Etiquetas 13 - Proceso '1'
+[INFO] 11:57:39:280 CPU/(23529:23529): El PCB del proceso '1' fue recibido correctamente
+[INFO] 11:57:39:280 CPU/(23529:23529): Contexto de ejecucion recibido - Process ID : 1 - PC : 0
+[INFO] 11:57:43:282 CPU/(23529:23529): PID: '1' - Current program line: '0' - Instruction --> 	wait c
+
+[INFO] 11:57:43:282 CPU/(23529:23529):  'waitPrimitive' 
+[INFO] 11:57:44:283 CPU/(23529:23529): PID: '1' - Sending PCB after semaphore block

@@ -1,0 +1,1126 @@
+[INFO] 11:06:28:202 SWAP/(21792:21792): socketServer: '5'
+
+[INFO] 11:06:28:202 SWAP/(21792:21792): The server is opened.
+
+[INFO] 11:06:38:902 SWAP/(21792:21792): The was received a connection in socket: '6'.
+[INFO] 11:06:38:902 SWAP/(21792:21792): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:07:34:945 SWAP/(21792:21792): Bytes received from process 'UMC': '4'
+
+[INFO] 11:07:34:945 SWAP/(21792:21792): New Program received - PID '1'
+[INFO] 11:07:34:985 SWAP/(21792:21792): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:07:34:985 SWAP/(21792:21792): Delay access... zzzzzz
+[INFO] 11:07:37:985 SWAP/(21792:21792): Se asignara '9' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:07:37:985 SWAP/(21792:21792): PID '1' added SUCCESFULLY
+[INFO] 11:07:39:986 SWAP/(21792:21792): Bytes received from process 'UMC': '4'
+
+[INFO] 11:07:39:987 SWAP/(21792:21792): Reading page '0' from PID '1'
+[INFO] 11:07:39:987 SWAP/(21792:21792): Se enviaron correctamente los datos. 
+
+[INFO] 11:07:43:989 SWAP/(21792:21792): Bytes received from process 'UMC': '4'
+
+[INFO] 11:07:43:989 SWAP/(21792:21792): Reading page '3' from PID '1'
+[INFO] 11:07:43:989 SWAP/(21792:21792): Se enviaron correctamente los datos. 
+
+[INFO] 11:17:35:741 SWAP/(22067:22067): socketServer: '5'
+
+[INFO] 11:17:35:741 SWAP/(22067:22067): The server is opened.
+
+[INFO] 11:17:37:166 SWAP/(22067:22067): The was received a connection in socket: '6'.
+[INFO] 11:17:37:167 SWAP/(22067:22067): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:18:04:53 SWAP/(22067:22067): Bytes received from process 'UMC': '4'
+
+[INFO] 11:18:04:53 SWAP/(22067:22067): New Program received - PID '1'
+[INFO] 11:18:04:93 SWAP/(22067:22067): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:18:04:93 SWAP/(22067:22067): Delay access... zzzzzz
+[INFO] 11:18:07:94 SWAP/(22067:22067): Se asignara '9' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:18:07:94 SWAP/(22067:22067): PID '1' added SUCCESFULLY
+[INFO] 11:18:09:95 SWAP/(22067:22067): Bytes received from process 'UMC': '4'
+
+[INFO] 11:18:09:95 SWAP/(22067:22067): Reading page '0' from PID '1'
+[INFO] 11:18:09:95 SWAP/(22067:22067): Se enviaron correctamente los datos. 
+
+[INFO] 11:18:13:97 SWAP/(22067:22067): Bytes received from process 'UMC': '4'
+
+[INFO] 11:18:13:97 SWAP/(22067:22067): Reading page '3' from PID '1'
+[INFO] 11:18:13:97 SWAP/(22067:22067): Se enviaron correctamente los datos. 
+
+[INFO] 11:20:21:786 SWAP/(22190:22190): socketServer: '5'
+
+[INFO] 11:20:21:787 SWAP/(22190:22190): The server is opened.
+
+[INFO] 11:20:23:27 SWAP/(22190:22190): The was received a connection in socket: '6'.
+[INFO] 11:20:23:28 SWAP/(22190:22190): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:20:37:553 SWAP/(22190:22190): Bytes received from process 'UMC': '4'
+
+[INFO] 11:20:37:553 SWAP/(22190:22190): New Program received - PID '1'
+[INFO] 11:20:37:593 SWAP/(22190:22190): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:20:37:593 SWAP/(22190:22190): Delay access... zzzzzz
+[INFO] 11:20:40:593 SWAP/(22190:22190): Se asignara '9' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:20:40:593 SWAP/(22190:22190): PID '1' added SUCCESFULLY
+[INFO] 11:20:43:934 SWAP/(22214:22214): socketServer: '5'
+
+[INFO] 11:20:43:934 SWAP/(22214:22214): The server is opened.
+
+[INFO] 11:20:44:572 SWAP/(22214:22214): The was received a connection in socket: '6'.
+[INFO] 11:20:44:574 SWAP/(22214:22214): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:21:00:765 SWAP/(22214:22214): Bytes received from process 'UMC': '4'
+
+[INFO] 11:21:00:765 SWAP/(22214:22214): New Program received - PID '1'
+[INFO] 11:21:00:805 SWAP/(22214:22214): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:21:00:805 SWAP/(22214:22214): Delay access... zzzzzz
+[INFO] 11:21:03:805 SWAP/(22214:22214): Se asignara '9' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:21:03:805 SWAP/(22214:22214): PID '1' added SUCCESFULLY
+[INFO] 11:21:05:806 SWAP/(22214:22214): Bytes received from process 'UMC': '4'
+
+[INFO] 11:21:05:807 SWAP/(22214:22214): Reading page '0' from PID '1'
+[INFO] 11:21:05:807 SWAP/(22214:22214): Se enviaron correctamente los datos. 
+
+[INFO] 11:21:09:809 SWAP/(22214:22214): Bytes received from process 'UMC': '4'
+
+[INFO] 11:21:09:809 SWAP/(22214:22214): Reading page '3' from PID '1'
+[INFO] 11:21:09:809 SWAP/(22214:22214): Se enviaron correctamente los datos. 
+
+[INFO] 11:27:28:741 SWAP/(22530:22530): socketServer: '5'
+
+[INFO] 11:27:28:741 SWAP/(22530:22530): The server is opened.
+
+[INFO] 11:27:29:821 SWAP/(22530:22530): The was received a connection in socket: '6'.
+[INFO] 11:27:29:822 SWAP/(22530:22530): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:27:46:261 SWAP/(22530:22530): Bytes received from process 'UMC': '4'
+
+[INFO] 11:27:46:261 SWAP/(22530:22530): New Program received - PID '1'
+[INFO] 11:27:46:300 SWAP/(22530:22530): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:27:46:301 SWAP/(22530:22530): Delay access... zzzzzz
+[INFO] 11:27:49:301 SWAP/(22530:22530): Se asignara '9' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:27:49:301 SWAP/(22530:22530): PID '1' added SUCCESFULLY
+[INFO] 11:27:51:303 SWAP/(22530:22530): Bytes received from process 'UMC': '4'
+
+[INFO] 11:27:51:303 SWAP/(22530:22530): Reading page '0' from PID '1'
+[INFO] 11:27:51:303 SWAP/(22530:22530): Se enviaron correctamente los datos. 
+
+[INFO] 11:27:55:305 SWAP/(22530:22530): Bytes received from process 'UMC': '4'
+
+[INFO] 11:27:55:305 SWAP/(22530:22530): Reading page '3' from PID '1'
+[INFO] 11:27:55:305 SWAP/(22530:22530): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:08:63 SWAP/(22641:22641): socketServer: '5'
+
+[INFO] 11:30:08:63 SWAP/(22641:22641): The server is opened.
+
+[INFO] 11:30:08:887 SWAP/(22641:22641): The was received a connection in socket: '6'.
+[INFO] 11:30:08:889 SWAP/(22641:22641): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:30:20:177 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:20:177 SWAP/(22641:22641): New Program received - PID '1'
+[INFO] 11:30:20:217 SWAP/(22641:22641): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:30:20:217 SWAP/(22641:22641): Delay access... zzzzzz
+[INFO] 11:30:23:218 SWAP/(22641:22641): Se asignara '16' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:30:23:218 SWAP/(22641:22641): PID '1' added SUCCESFULLY
+[INFO] 11:30:25:219 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:25:219 SWAP/(22641:22641): Reading page '0' from PID '1'
+[INFO] 11:30:25:219 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:29:221 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:29:221 SWAP/(22641:22641): Reading page '1' from PID '1'
+[INFO] 11:30:29:221 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:33:262 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:33:262 SWAP/(22641:22641): Reading page '17' from PID '1'
+[INFO] 11:30:33:262 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:46:269 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:46:269 SWAP/(22641:22641): Reading page '0' from PID '1'
+[INFO] 11:30:46:269 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:50:270 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:50:270 SWAP/(22641:22641): Reading page '1' from PID '1'
+[INFO] 11:30:50:270 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:30:50:270 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:50:270 SWAP/(22641:22641): Writing page '17' from PID '1'
+[INFO] 11:30:50:270 SWAP/(22641:22641): Delay access... zzzzzz
+[INFO] 11:30:54:310 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:30:54:310 SWAP/(22641:22641): Reading page '17' from PID '1'
+[INFO] 11:30:54:310 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:31:03:352 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:31:03:353 SWAP/(22641:22641): Reading page '0' from PID '1'
+[INFO] 11:31:03:353 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:31:07:354 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:31:07:354 SWAP/(22641:22641): Reading page '1' from PID '1'
+[INFO] 11:31:07:354 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:31:07:354 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:31:07:354 SWAP/(22641:22641): Writing page '17' from PID '1'
+[INFO] 11:31:07:354 SWAP/(22641:22641): Delay access... zzzzzz
+[INFO] 11:31:20:474 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:31:20:474 SWAP/(22641:22641): Reading page '2' from PID '1'
+[INFO] 11:31:20:474 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:31:24:514 SWAP/(22641:22641): Bytes received from process 'UMC': '4'
+
+[INFO] 11:31:24:514 SWAP/(22641:22641): Reading page '17' from PID '1'
+[INFO] 11:31:24:514 SWAP/(22641:22641): Se enviaron correctamente los datos. 
+
+[INFO] 11:32:39:600 SWAP/(22989:22989): socketServer: '5'
+
+[INFO] 11:32:39:600 SWAP/(22989:22989): The server is opened.
+
+[INFO] 11:32:40:580 SWAP/(22989:22989): The was received a connection in socket: '6'.
+[INFO] 11:32:40:581 SWAP/(22989:22989): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:33:24:519 SWAP/(23011:23011): socketServer: '5'
+
+[INFO] 11:33:24:519 SWAP/(23011:23011): The server is opened.
+
+[INFO] 11:33:25:184 SWAP/(23011:23011): The was received a connection in socket: '6'.
+[INFO] 11:33:25:185 SWAP/(23011:23011): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:33:31:433 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:33:31:433 SWAP/(23011:23011): New Program received - PID '1'
+[INFO] 11:33:31:473 SWAP/(23011:23011): message received: 
+#!/usr/bin/ansisop
+
+#Respuesta esperada: 1; 1; Hola Mundo!; 3; Bye
+
+begin
+variables f,  A,  g
+    A = 	0
+    !compartida = 1+A
+    print !compartida
+    jnz !compartida Siguiente 
+:Proximo
+	
+    f = 8	  
+    g <- doble !compartida	
+    io LPT1 20
+
+    textPrint    Hola Mundo!
+    
+    g = 1 + g
+    print 		g    
+    
+    textPrint Bye
+    
+end
+
+
+#Devolver el doble del
+#primer parametro
+function doble
+variables z
+    z = $0 + $0
+    return f
+end
+
+:Siguiente	
+	print A+1
+goto Proximo
+
+
+
+
+[INFO] 11:33:31:473 SWAP/(23011:23011): Delay access... zzzzzz
+[INFO] 11:33:34:474 SWAP/(23011:23011): Se asignara '16' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:33:34:474 SWAP/(23011:23011): PID '1' added SUCCESFULLY
+[INFO] 11:33:36:475 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:33:36:475 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:33:36:475 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:33:40:477 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:33:40:477 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:33:40:477 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:33:44:518 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:33:44:518 SWAP/(23011:23011): Reading page '17' from PID '1'
+[INFO] 11:33:44:518 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:33:57:529 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:33:57:529 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:33:57:529 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:01:531 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:01:531 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:34:01:531 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:01:531 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:01:531 SWAP/(23011:23011): Writing page '17' from PID '1'
+[INFO] 11:34:01:569 SWAP/(23011:23011): Delay access... zzzzzz
+[INFO] 11:34:05:570 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:05:570 SWAP/(23011:23011): Reading page '17' from PID '1'
+[INFO] 11:34:05:570 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:10:572 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:10:572 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:34:10:573 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:14:575 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:14:575 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:34:14:575 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:14:575 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:14:575 SWAP/(23011:23011): Writing page '17' from PID '1'
+[INFO] 11:34:14:613 SWAP/(23011:23011): Delay access... zzzzzz
+[INFO] 11:34:18:614 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:18:615 SWAP/(23011:23011): Reading page '17' from PID '1'
+[INFO] 11:34:18:615 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:23:656 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:23:656 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:34:23:656 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:27:659 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:27:659 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:34:27:659 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:31:698 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:31:698 SWAP/(23011:23011): Reading page '2' from PID '1'
+[INFO] 11:34:31:698 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:36:779 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:36:779 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:34:36:779 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:40:780 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:40:780 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:34:40:781 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:44:822 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:44:822 SWAP/(23011:23011): Reading page '2' from PID '1'
+[INFO] 11:34:44:822 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:49:863 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:49:864 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:34:49:864 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:53:866 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:53:866 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:34:53:866 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:34:57:905 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:34:57:905 SWAP/(23011:23011): Reading page '2' from PID '1'
+[INFO] 11:34:57:905 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:01:945 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:01:945 SWAP/(23011:23011): Reading page '3' from PID '1'
+[INFO] 11:35:01:945 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:05:986 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:05:986 SWAP/(23011:23011): Reading page '4' from PID '1'
+[INFO] 11:35:05:986 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:10:26 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:10:26 SWAP/(23011:23011): Reading page '5' from PID '1'
+[INFO] 11:35:10:26 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:14:65 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:14:65 SWAP/(23011:23011): Reading page '6' from PID '1'
+[INFO] 11:35:14:65 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:18:105 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:18:105 SWAP/(23011:23011): Reading page '7' from PID '1'
+[INFO] 11:35:18:105 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:22:146 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:22:146 SWAP/(23011:23011): Reading page '17' from PID '1'
+[INFO] 11:35:22:146 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:27:187 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:27:187 SWAP/(23011:23011): Reading page '0' from PID '1'
+[INFO] 11:35:27:187 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:31:190 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:31:190 SWAP/(23011:23011): Reading page '1' from PID '1'
+[INFO] 11:35:31:190 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:35:229 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:35:229 SWAP/(23011:23011): Reading page '2' from PID '1'
+[INFO] 11:35:35:229 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:35:39:270 SWAP/(23011:23011): Bytes received from process 'UMC': '4'
+
+[INFO] 11:35:39:270 SWAP/(23011:23011): Reading page '3' from PID '1'
+[INFO] 11:35:39:270 SWAP/(23011:23011): Se enviaron correctamente los datos. 
+
+[INFO] 11:37:19:574 SWAP/(23061:23061): socketServer: '5'
+
+[INFO] 11:37:19:574 SWAP/(23061:23061): The server is opened.
+
+[INFO] 11:37:20:107 SWAP/(23061:23061): The was received a connection in socket: '6'.
+[INFO] 11:37:20:108 SWAP/(23061:23061): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:37:43:293 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:37:43:293 SWAP/(23061:23061): New Program received - PID '1'
+[INFO] 11:37:43:333 SWAP/(23061:23061): message received: 
+#!/usr/bin/ansisop
+#Alliance - S4
+
+begin
+variables f, i, t
+
+	#`f`: Hasta donde contar
+	f=20
+	:inicio
+
+	#`i`: Iterador
+	i=i+1
+	
+	#Imprimir el contador
+	print i
+
+	#`t`: Comparador entre `i` y `f`
+	t=f-i
+	#De no ser iguales, salta a inicio
+
+	#esperar
+	io HDD1 3
+	jnz t inicio
+end
+
+
+
+
+[INFO] 11:37:43:333 SWAP/(23061:23061): Delay access... zzzzzz
+[INFO] 11:37:46:333 SWAP/(23061:23061): Se asignara '13' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:37:46:333 SWAP/(23061:23061): PID '1' added SUCCESFULLY
+[INFO] 11:37:48:335 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:37:48:335 SWAP/(23061:23061): Reading page '0' from PID '1'
+[INFO] 11:37:48:335 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:37:52:337 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:37:52:337 SWAP/(23061:23061): Reading page '11' from PID '1'
+[INFO] 11:37:52:337 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:09:344 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:09:344 SWAP/(23061:23061): Reading page '1' from PID '1'
+[INFO] 11:38:09:344 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:18:389 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:18:389 SWAP/(23061:23061): Reading page '0' from PID '1'
+[INFO] 11:38:18:389 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:22:391 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:22:391 SWAP/(23061:23061): Reading page '1' from PID '1'
+[INFO] 11:38:22:391 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:22:391 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:22:391 SWAP/(23061:23061): Writing page '11' from PID '1'
+[INFO] 11:38:22:429 SWAP/(23061:23061): Delay access... zzzzzz
+[INFO] 11:38:26:430 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:26:430 SWAP/(23061:23061): Reading page '11' from PID '1'
+[INFO] 11:38:26:430 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:35:510 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:35:510 SWAP/(23061:23061): Reading page '0' from PID '1'
+[INFO] 11:38:35:510 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:39:512 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:39:512 SWAP/(23061:23061): Reading page '1' from PID '1'
+[INFO] 11:38:39:513 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:39:513 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:39:513 SWAP/(23061:23061): Writing page '11' from PID '1'
+[INFO] 11:38:39:552 SWAP/(23061:23061): Delay access... zzzzzz
+[INFO] 11:38:43:553 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:43:553 SWAP/(23061:23061): Reading page '2' from PID '1'
+[INFO] 11:38:43:553 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:47:594 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:47:594 SWAP/(23061:23061): Reading page '11' from PID '1'
+[INFO] 11:38:47:594 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:52:635 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:52:635 SWAP/(23061:23061): Reading page '0' from PID '1'
+[INFO] 11:38:52:635 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:38:56:637 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:38:56:637 SWAP/(23061:23061): Reading page '1' from PID '1'
+[INFO] 11:38:56:637 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:00:678 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:00:678 SWAP/(23061:23061): Reading page '2' from PID '1'
+[INFO] 11:39:00:678 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:04:718 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:04:718 SWAP/(23061:23061): Reading page '3' from PID '1'
+[INFO] 11:39:04:718 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:08:758 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:08:758 SWAP/(23061:23061): Reading page '11' from PID '1'
+[INFO] 11:39:08:758 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:21:840 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:21:840 SWAP/(23061:23061): Reading page '0' from PID '1'
+[INFO] 11:39:21:840 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:25:843 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:25:843 SWAP/(23061:23061): Reading page '1' from PID '1'
+[INFO] 11:39:25:843 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:25:843 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:25:843 SWAP/(23061:23061): Writing page '11' from PID '1'
+[INFO] 11:39:25:881 SWAP/(23061:23061): Delay access... zzzzzz
+[INFO] 11:39:29:881 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:29:881 SWAP/(23061:23061): Reading page '2' from PID '1'
+[INFO] 11:39:29:881 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:33:921 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:33:921 SWAP/(23061:23061): Reading page '3' from PID '1'
+[INFO] 11:39:33:921 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:39:37:962 SWAP/(23061:23061): Bytes received from process 'UMC': '4'
+
+[INFO] 11:39:37:962 SWAP/(23061:23061): Reading page '4' from PID '1'
+[INFO] 11:39:37:962 SWAP/(23061:23061): Se enviaron correctamente los datos. 
+
+[INFO] 11:42:37:821 SWAP/(23106:23106): socketServer: '5'
+
+[INFO] 11:42:37:821 SWAP/(23106:23106): The server is opened.
+
+[INFO] 11:42:38:435 SWAP/(23106:23106): The was received a connection in socket: '6'.
+[INFO] 11:42:38:436 SWAP/(23106:23106): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:43:39:176 SWAP/(23106:23106): Bytes received from process 'UMC': '4'
+
+[INFO] 11:43:39:177 SWAP/(23106:23106): New Program received - PID '1'
+[INFO] 11:43:39:216 SWAP/(23106:23106): message received: 
+#!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait b
+		!colas = !colas +1
+	signal c
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+
+
+[INFO] 11:43:39:216 SWAP/(23106:23106): Delay access... zzzzzz
+[INFO] 11:43:42:217 SWAP/(23106:23106): Se asignara '10' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:43:42:217 SWAP/(23106:23106): PID '1' added SUCCESFULLY
+[INFO] 11:43:44:218 SWAP/(23106:23106): Bytes received from process 'UMC': '4'
+
+[INFO] 11:43:44:218 SWAP/(23106:23106): Reading page '0' from PID '1'
+[INFO] 11:43:44:218 SWAP/(23106:23106): Se enviaron correctamente los datos. 
+
+[INFO] 11:43:53:261 SWAP/(23106:23106): Bytes received from process 'UMC': '4'
+
+[INFO] 11:43:53:261 SWAP/(23106:23106): Reading page '1' from PID '1'
+[INFO] 11:43:53:261 SWAP/(23106:23106): Se enviaron correctamente los datos. 
+
+[INFO] 11:53:42:560 SWAP/(23171:23171): socketServer: '5'
+
+[INFO] 11:53:42:560 SWAP/(23171:23171): The server is opened.
+
+[INFO] 11:53:43:382 SWAP/(23171:23171): The was received a connection in socket: '6'.
+[INFO] 11:53:43:383 SWAP/(23171:23171): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:54:00:179 SWAP/(23171:23171): Bytes received from process 'UMC': '4'
+
+[INFO] 11:54:00:179 SWAP/(23171:23171): New Program received - PID '1'
+[INFO] 11:54:00:219 SWAP/(23171:23171): message received: 
+#!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait c
+		print !colas
+	signal b
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+
+
+[INFO] 11:54:00:219 SWAP/(23171:23171): Delay access... zzzzzz
+[INFO] 11:54:03:219 SWAP/(23171:23171): Se asignara '10' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:54:03:219 SWAP/(23171:23171): PID '1' added SUCCESFULLY
+[INFO] 11:54:05:221 SWAP/(23171:23171): Bytes received from process 'UMC': '4'
+
+[INFO] 11:54:05:221 SWAP/(23171:23171): Reading page '0' from PID '1'
+[INFO] 11:54:05:221 SWAP/(23171:23171): Se enviaron correctamente los datos. 
+
+[INFO] 11:56:07:19 SWAP/(23171:23171): Bytes received from process 'UMC': '4'
+
+[INFO] 11:56:07:19 SWAP/(23171:23171): New Program received - PID '2'
+[INFO] 11:56:07:59 SWAP/(23171:23171): message received: 
+#!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait b
+		!colas = !colas +1
+	signal c
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+
+
+[INFO] 11:56:07:59 SWAP/(23171:23171): Delay access... zzzzzz
+[INFO] 11:56:10:59 SWAP/(23171:23171): Se asignara '10' paginas al proceso '2' desde la pagina '10'  
+
+[INFO] 11:56:10:59 SWAP/(23171:23171): PID '2' added SUCCESFULLY
+[INFO] 11:56:46:428 SWAP/(23517:23517): socketServer: '5'
+
+[INFO] 11:56:46:428 SWAP/(23517:23517): The server is opened.
+
+[INFO] 11:56:47:504 SWAP/(23517:23517): The was received a connection in socket: '6'.
+[INFO] 11:56:47:507 SWAP/(23517:23517): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 11:57:06:36 SWAP/(23517:23517): Bytes received from process 'UMC': '4'
+
+[INFO] 11:57:06:36 SWAP/(23517:23517): New Program received - PID '1'
+[INFO] 11:57:06:75 SWAP/(23517:23517): message received: 
+#!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait c
+		print !colas
+	signal b
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+
+
+[INFO] 11:57:06:75 SWAP/(23517:23517): Delay access... zzzzzz
+[INFO] 11:57:09:75 SWAP/(23517:23517): Se asignara '10' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 11:57:09:75 SWAP/(23517:23517): PID '1' added SUCCESFULLY
+[INFO] 11:57:11:76 SWAP/(23517:23517): Bytes received from process 'UMC': '4'
+
+[INFO] 11:57:11:76 SWAP/(23517:23517): Reading page '0' from PID '1'
+[INFO] 11:57:11:76 SWAP/(23517:23517): Se enviaron correctamente los datos. 
+
+[INFO] 11:57:13:78 SWAP/(23517:23517): Bytes received from process 'UMC': '4'
+
+[INFO] 11:57:13:78 SWAP/(23517:23517): New Program received - PID '2'
+[INFO] 11:57:13:115 SWAP/(23517:23517): message received: 
+#!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait b
+		!colas = !colas +1
+	signal c
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+
+
+[INFO] 11:57:13:115 SWAP/(23517:23517): Delay access... zzzzzz
+[INFO] 11:57:16:116 SWAP/(23517:23517): Se asignara '10' paginas al proceso '2' desde la pagina '10'  
+
+[INFO] 11:57:16:116 SWAP/(23517:23517): PID '2' added SUCCESFULLY
+[INFO] 11:57:18:117 SWAP/(23517:23517): Bytes received from process 'UMC': '4'
+
+[INFO] 11:57:18:117 SWAP/(23517:23517): Reading page '0' from PID '2'
+[INFO] 11:57:18:117 SWAP/(23517:23517): Se enviaron correctamente los datos. 
+
+[INFO] 11:57:27:157 SWAP/(23517:23517): Bytes received from process 'UMC': '4'
+
+[INFO] 11:57:27:157 SWAP/(23517:23517): Reading page '1' from PID '2'
+[INFO] 11:57:27:157 SWAP/(23517:23517): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:02:738 SWAP/(23557:23557): socketServer: '5'
+
+[INFO] 12:25:02:739 SWAP/(23557:23557): The server is opened.
+
+[INFO] 12:25:03:750 SWAP/(23557:23557): The was received a connection in socket: '6'.
+[INFO] 12:25:03:751 SWAP/(23557:23557): Message from 'UMC': The process 'UMC' is trying to connect you!
+
+[INFO] 12:25:15:816 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:15:816 SWAP/(23557:23557): New Program received - PID '1'
+[INFO] 12:25:15:856 SWAP/(23557:23557): message received: 
+#!/usr/bin/ansisop
+#Alliance - S4
+
+begin
+variables f, i, t
+
+	#`f`: Hasta donde contar
+	f=20
+	:inicio
+
+	#`i`: Iterador
+	i=i+1
+	
+	#Imprimir el contador
+	print i
+
+	#`t`: Comparador entre `i` y `f`
+	t=f-i
+	#De no ser iguales, salta a inicio
+
+	#esperar
+	io HDD1 3
+	jnz t inicio
+end
+
+
+
+
+[INFO] 12:25:15:856 SWAP/(23557:23557): Delay access... zzzzzz
+[INFO] 12:25:18:856 SWAP/(23557:23557): Se asignara '13' paginas al proceso '1' desde la pagina '0'  
+
+[INFO] 12:25:18:856 SWAP/(23557:23557): PID '1' added SUCCESFULLY
+[INFO] 12:25:20:857 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:20:858 SWAP/(23557:23557): Reading page '0' from PID '1'
+[INFO] 12:25:20:858 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:24:859 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:24:859 SWAP/(23557:23557): Reading page '11' from PID '1'
+[INFO] 12:25:24:859 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:41:869 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:41:869 SWAP/(23557:23557): Reading page '1' from PID '1'
+[INFO] 12:25:41:869 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:50:912 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:50:912 SWAP/(23557:23557): Reading page '0' from PID '1'
+[INFO] 12:25:50:912 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:54:915 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:54:915 SWAP/(23557:23557): Reading page '1' from PID '1'
+[INFO] 12:25:54:915 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:25:54:915 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:54:915 SWAP/(23557:23557): Writing page '11' from PID '1'
+[INFO] 12:25:54:952 SWAP/(23557:23557): Delay access... zzzzzz
+[INFO] 12:25:58:958 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:25:58:958 SWAP/(23557:23557): Reading page '11' from PID '1'
+[INFO] 12:25:58:958 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:08:38 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:08:38 SWAP/(23557:23557): Reading page '0' from PID '1'
+[INFO] 12:26:08:38 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:12:40 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:12:40 SWAP/(23557:23557): Reading page '1' from PID '1'
+[INFO] 12:26:12:40 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:12:40 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:12:40 SWAP/(23557:23557): Writing page '11' from PID '1'
+[INFO] 12:26:12:80 SWAP/(23557:23557): Delay access... zzzzzz
+[INFO] 12:26:16:81 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:16:81 SWAP/(23557:23557): Reading page '2' from PID '1'
+[INFO] 12:26:16:81 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:20:121 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:20:121 SWAP/(23557:23557): Reading page '11' from PID '1'
+[INFO] 12:26:20:121 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:25:162 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:25:163 SWAP/(23557:23557): Reading page '0' from PID '1'
+[INFO] 12:26:25:163 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:29:165 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:29:165 SWAP/(23557:23557): Reading page '1' from PID '1'
+[INFO] 12:26:29:165 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:33:205 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:33:205 SWAP/(23557:23557): Reading page '2' from PID '1'
+[INFO] 12:26:33:205 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:37:245 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:37:245 SWAP/(23557:23557): Reading page '3' from PID '1'
+[INFO] 12:26:37:245 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:41:285 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:41:285 SWAP/(23557:23557): Reading page '11' from PID '1'
+[INFO] 12:26:41:285 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:54:368 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:54:368 SWAP/(23557:23557): Reading page '0' from PID '1'
+[INFO] 12:26:54:368 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:58:370 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:58:370 SWAP/(23557:23557): Reading page '1' from PID '1'
+[INFO] 12:26:58:370 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:26:58:370 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:26:58:370 SWAP/(23557:23557): Writing page '11' from PID '1'
+[INFO] 12:26:58:408 SWAP/(23557:23557): Delay access... zzzzzz
+[INFO] 12:27:02:409 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:27:02:409 SWAP/(23557:23557): Reading page '2' from PID '1'
+[INFO] 12:27:02:409 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:27:06:449 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:27:06:449 SWAP/(23557:23557): Reading page '3' from PID '1'
+[INFO] 12:27:06:449 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+
+[INFO] 12:27:10:489 SWAP/(23557:23557): Bytes received from process 'UMC': '4'
+
+[INFO] 12:27:10:489 SWAP/(23557:23557): Reading page '4' from PID '1'
+[INFO] 12:27:10:489 SWAP/(23557:23557): Se enviaron correctamente los datos. 
+

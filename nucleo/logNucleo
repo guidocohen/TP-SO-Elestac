@@ -1,0 +1,302 @@
+[INFO] 11:56:49:62 NUCLEO/(23523:23523): Creando el archivo de configuracion: ../configuracion.nucleo 
+[INFO] 11:56:49:70 NUCLEO/(23523:23523): El archivo de configuracion: '../configuracion.nucleo' se creo correctamente 
+[INFO] 11:56:49:73 NUCLEO/(23523:23523): Conectado a UMC - Message: The server has accepted your connection!
+[INFO] 11:56:49:73 NUCLEO/(23523:23523): NUCLEO connected to UMC successfully
+[INFO] 11:56:49:73 NUCLEO/(23523:23526): SocketServer: 5
+[INFO] 11:56:49:73 NUCLEO/(23523:23526): the server is opened
+[INFO] 11:56:49:73 NUCLEO/(23523:23525): SocketServer: 7
+[INFO] 11:56:49:73 NUCLEO/(23523:23525): the server is opened
+[INFO] 11:56:50:526 NUCLEO/(23523:23526): The was received a connection in socket: 6.
+[INFO] 11:56:50:527 NUCLEO/(23523:23532): Message from 'CPU': The process 'CPU' is trying to connect you!
+[INFO] 11:56:50:527 NUCLEO/(23523:23532): se agrego CPU: 6 a la listaCPU cuyo size es: 1
+[INFO] 11:56:52:815 NUCLEO/(23523:23526): The was received a connection in socket: 9.
+[INFO] 11:56:52:816 NUCLEO/(23523:23536): Message from 'CPU': The process 'CPU' is trying to connect you!
+[INFO] 11:56:52:816 NUCLEO/(23523:23536): se agrego CPU: 9 a la listaCPU cuyo size es: 2
+[INFO] 11:56:53:878 NUCLEO/(23523:23525): The was received a connection in socket: 8.
+[INFO] 11:56:53:879 NUCLEO/(23523:23540): Message from 'CONSOLA': The process 'CONSOLA' is trying to connect you!
+[INFO] 11:56:53:879 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 8
+[INFO] 11:56:54:851 NUCLEO/(23523:23525): The was received a connection in socket: 11.
+[INFO] 11:56:54:852 NUCLEO/(23523:23545): Message from 'CONSOLA': The process 'CONSOLA' is trying to connect you!
+[INFO] 11:56:54:852 NUCLEO/(23523:23546): Socket client connected to NUCLEO: 11
+[INFO] 11:57:05:953 NUCLEO/(23523:23546): Message size received: 122 of socket: 11 
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): Bytes received from process 'CONSOLA': 4
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): Processing CONSOLA message received
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): Bytes received for code: 122
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): creo el PCB del proceso
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): etiquetas size directo de la metadata: 13
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): Cantidad de paginas que ocupa el codigo: 2
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): instrucciones_size: 5
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): size de la lista indice de codigo: 5
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): 'sizeindiceDeEtiquetas' : 13 'indiceDeEtiquetas' : etiqueta
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): se arman las listas y los campos del PCB
+[INFO] 11:57:05:991 NUCLEO/(23523:23546): Proceso 1 - Iniciado  Script: 
+ #!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait c
+		print !colas
+	signal b
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+ 
+
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): size colaListos: 1
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): size listaConsola: 1
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): Para el processID: 1, aviso al proceso UMC el inicio  el programa 
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): strlen del codigo del programa: 122 
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): Se realiza correctamente el envio del programa con tamanio 122 al proceso UMC
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): size de listaCPU: 2
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): Se tomo el socket CPU '6' para enviar un PCB
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): se envia la lista de indice de codigo de 5 elementos al proceso CPU - Tamanio indice Codigo: 44
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): Se envia el tamanio 0 del buffer indice de Stack al proceso CPU
+[INFO] 11:57:05:992 NUCLEO/(23523:23546): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 13
+[INFO] 11:57:05:993 NUCLEO/(23523:23546): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 11:57:05:993 NUCLEO/(23523:23546): Socket client connected to NUCLEO: 6
+[INFO] 11:57:11:229 NUCLEO/(23523:23541): Message size received: 128 of socket: 8 
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): Bytes received from process 'CONSOLA': 4
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): Processing CONSOLA message received
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): Bytes received for code: 128
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): creo el PCB del proceso
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): etiquetas size directo de la metadata: 13
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): Cantidad de paginas que ocupa el codigo: 2
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): instrucciones_size: 5
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): size de la lista indice de codigo: 5
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): 'sizeindiceDeEtiquetas' : 13 'indiceDeEtiquetas' : etiqueta
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): se arman las listas y los campos del PCB
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): Proceso 2 - Iniciado  Script: 
+ #!/usr/bin/ansisop
+begin	
+	:etiqueta
+	
+	wait b
+		!colas = !colas +1
+	signal c
+	
+	#Ciclar indefinidamente
+	goto etiqueta
+
+end
+
+
+ 
+
+[INFO] 11:57:11:267 NUCLEO/(23523:23541): size colaListos: 1
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): size listaConsola: 2
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Para el processID: 2, aviso al proceso UMC el inicio  el programa 
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): strlen del codigo del programa: 128 
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Se realiza correctamente el envio del programa con tamanio 128 al proceso UMC
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): size de listaCPU: 2
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Se tomo el socket CPU '9' para enviar un PCB
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): se envia la lista de indice de codigo de 5 elementos al proceso CPU - Tamanio indice Codigo: 44
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Se envia el tamanio 0 del buffer indice de Stack al proceso CPU
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 13
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 11:57:11:268 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[INFO] 11:57:13:78 NUCLEO/(23523:23546): message size received: 8 
+[INFO] 11:57:13:78 NUCLEO/(23523:23546): Bytes received from process 'CPU': 4
+[INFO] 11:57:13:78 NUCLEO/(23523:23546): Processing CPU message received
+[INFO] 11:57:13:78 NUCLEO/(23523:23546): Processing CPU message 
+[INFO] 11:57:13:78 NUCLEO/(23523:23546):  'waitPrimitive' 
+[INFO] 11:57:13:115 NUCLEO/(23523:23546): Se recibe el semaforo WAIT: 'c', con el tamanio: '2'  
+[INFO] 11:57:13:115 NUCLEO/(23523:23546): Nucleo, obteniendo semaforo:  c
+[INFO] 11:57:13:115 NUCLEO/(23523:23546): Se recibio del PID 1 y se envia a bloquear por semaforo: 'c' 
+[INFO] 11:57:14:116 NUCLEO/(23523:23546): Procesando el bloqueo por el semaforo: c, para el PID: 1 
+[INFO] 11:57:14:116 NUCLEO/(23523:23546): Se bloquea el PID: 1, por semaforo: c 
+[INFO] 11:57:14:116 NUCLEO/(23523:23546): Socket client connected to NUCLEO: 6
+[INFO] 11:57:20:118 NUCLEO/(23523:23541): message size received: 8 
+[INFO] 11:57:20:118 NUCLEO/(23523:23541): Bytes received from process 'CPU': 4
+[INFO] 11:57:20:118 NUCLEO/(23523:23541): Processing CPU message received
+[INFO] 11:57:20:118 NUCLEO/(23523:23541): Processing CPU message 
+[INFO] 11:57:20:118 NUCLEO/(23523:23541):  'waitPrimitive' 
+[INFO] 11:57:20:155 NUCLEO/(23523:23541): Se recibe el semaforo WAIT: 'b', con el tamanio: '2'  
+[INFO] 11:57:20:155 NUCLEO/(23523:23541): Nucleo, obteniendo semaforo:  b
+[INFO] 11:57:20:155 NUCLEO/(23523:23541): Nucleo, obteniendo semaforo:  b
+[INFO] 11:57:20:155 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[INFO] 11:57:29:195 NUCLEO/(23523:23541): message size received: 8 
+[INFO] 11:57:29:195 NUCLEO/(23523:23541): Bytes received from process 'CPU': 4
+[INFO] 11:57:29:195 NUCLEO/(23523:23541): Processing CPU message received
+[INFO] 11:57:29:195 NUCLEO/(23523:23541): Processing CPU message 
+[INFO] 11:57:29:195 NUCLEO/(23523:23541):  'obtenerValorCompartida' 
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Nucleo, obteniendo valor para la variable: colas
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Se envio correctamente el valor '0' de la variable 'colas' al proceso CPU
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): message size received: 8 
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Bytes received from process 'CPU': 4
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Processing CPU message received
+[INFO] 11:57:29:235 NUCLEO/(23523:23541): Processing CPU message 
+[INFO] 11:57:29:235 NUCLEO/(23523:23541):  'asignarValorCompartida' 
+[INFO] 11:57:29:275 NUCLEO/(23523:23541): Se graba el valor: 1 en la variable: 'colas' 
+[INFO] 11:57:29:275 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): message size received: 8 
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): Bytes received from process 'CPU': 4
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): Processing CPU message received
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): Processing CPU message 
+[INFO] 11:57:38:279 NUCLEO/(23523:23541):  'signalPrimitive' 
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): Proceso '2' libera semaforo: 'c' 
+[INFO] 11:57:38:279 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): message size received: 8 
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): Bytes received from process 'CPU': 4
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): Processing CPU message received
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): Processing CPU message 
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): Se procesa la atencion del corte por Quantum
+[INFO] 11:57:39:279 NUCLEO/(23523:23541): Recibiendo PCB (stack) para el PID: 2 modificado por el CPU de socket: 9 
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): size de listaCPU: 2
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): Se tomo el socket CPU '6' para enviar un PCB
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): se envia la lista de indice de codigo de 5 elementos al proceso CPU - Tamanio indice Codigo: 44
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): Se envia el tamanio 0 del buffer indice de Stack al proceso CPU
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 13
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 11:57:39:280 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 6
+[INFO] 11:57:43:282 NUCLEO/(23523:23546): message size received: 8 
+[INFO] 11:57:43:282 NUCLEO/(23523:23546): Bytes received from process 'CONSOLA': 4
+[ERROR] 11:57:43:282 NUCLEO/(23523:23546): Process not allowed to connect - Invalid process 'CONSOLA' send a message to NUCLEO 
+[INFO] 11:57:43:282 NUCLEO/(23523:23541): message size received: 3 
+[INFO] 11:57:43:282 NUCLEO/(23523:23541): Bytes received from process '(null)': -1
+[ERROR] 11:57:43:282 NUCLEO/(23523:23541): Process not allowed to connect - Invalid process '(null)' send a message to NUCLEO 
+[INFO] 11:57:43:282 NUCLEO/(23523:23541): Socket client connected to NUCLEO: 9
+[ERROR] 12:24:58:920 NUCLEO/(23523:23546): The client went down while receiving! - Please check the client '11' is down!
+[INFO] 12:25:00:878 NUCLEO/(23523:23541): message size received: 0 
+[ERROR] 12:25:00:878 NUCLEO/(23523:23541): The client went down while receiving! - Please check the client '9' is down!
+[ERROR] 12:25:00:878 NUCLEO/(23523:23541): The client went down while receiving! - Please check the client '8' is down!
+[INFO] 12:25:04:463 NUCLEO/(23563:23563): Creando el archivo de configuracion: ../configuracion.nucleo 
+[INFO] 12:25:04:474 NUCLEO/(23563:23563): El archivo de configuracion: '../configuracion.nucleo' se creo correctamente 
+[INFO] 12:25:04:478 NUCLEO/(23563:23563): Conectado a UMC - Message: The server has accepted your connection!
+[INFO] 12:25:04:478 NUCLEO/(23563:23563): NUCLEO connected to UMC successfully
+[INFO] 12:25:04:478 NUCLEO/(23563:23566): SocketServer: 5
+[INFO] 12:25:04:478 NUCLEO/(23563:23566): the server is opened
+[INFO] 12:25:04:478 NUCLEO/(23563:23565): SocketServer: 7
+[INFO] 12:25:04:478 NUCLEO/(23563:23565): the server is opened
+[INFO] 12:25:06:430 NUCLEO/(23563:23566): The was received a connection in socket: 6.
+[INFO] 12:25:06:431 NUCLEO/(23563:23572): Message from 'CPU': The process 'CPU' is trying to connect you!
+[INFO] 12:25:06:431 NUCLEO/(23563:23572): se agrego CPU: 6 a la listaCPU cuyo size es: 1
+[INFO] 12:25:07:173 NUCLEO/(23563:23565): The was received a connection in socket: 8.
+[INFO] 12:25:07:173 NUCLEO/(23563:23576): Message from 'CONSOLA': The process 'CONSOLA' is trying to connect you!
+[INFO] 12:25:07:173 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 8
+[INFO] 12:25:15:737 NUCLEO/(23563:23577): Message size received: 280 of socket: 8 
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Bytes received from process 'CONSOLA': 4
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Processing CONSOLA message received
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Bytes received for code: 280
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): creo el PCB del proceso
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): etiquetas size directo de la metadata: 11
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Cantidad de paginas que ocupa el codigo: 5
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): instrucciones_size: 8
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): size de la lista indice de codigo: 8
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): 'sizeindiceDeEtiquetas' : 11 'indiceDeEtiquetas' : inicio
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): se arman las listas y los campos del PCB
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Proceso 1 - Iniciado  Script: 
+ #!/usr/bin/ansisop
+#Alliance - S4
+
+begin
+variables f, i, t
+
+	#`f`: Hasta donde contar
+	f=20
+	:inicio
+
+	#`i`: Iterador
+	i=i+1
+	
+	#Imprimir el contador
+	print i
+
+	#`t`: Comparador entre `i` y `f`
+	t=f-i
+	#De no ser iguales, salta a inicio
+
+	#esperar
+	io HDD1 3
+	jnz t inicio
+end
+
+
+ 
+
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): size colaListos: 1
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): size listaConsola: 1
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Para el processID: 1, aviso al proceso UMC el inicio  el programa 
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): strlen del codigo del programa: 280 
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Se realiza correctamente el envio del programa con tamanio 280 al proceso UMC
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): size de listaCPU: 1
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): Se tomo el socket CPU '6' para enviar un PCB
+[INFO] 12:25:15:776 NUCLEO/(23563:23577): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): se envia la lista de indice de codigo de 8 elementos al proceso CPU - Tamanio indice Codigo: 68
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): Se envia el tamanio 0 del buffer indice de Stack al proceso CPU
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 11
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 12:25:15:777 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:26:05:999 NUCLEO/(23563:23577): message size received: 8 
+[INFO] 12:26:05:999 NUCLEO/(23563:23577): Bytes received from process 'CPU': 4
+[INFO] 12:26:05:999 NUCLEO/(23563:23577): Processing CPU message received
+[INFO] 12:26:05:999 NUCLEO/(23563:23577): Processing CPU message 
+[INFO] 12:26:05:999 NUCLEO/(23563:23577): Se procesa la atencion del corte por Quantum
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): Recibiendo PCB (stack) para el PID: 1 modificado por el CPU de socket: 6 
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): size de listaCPU: 1
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): Se tomo el socket CPU '6' para enviar un PCB
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): se envia la lista de indice de codigo de 8 elementos al proceso CPU - Tamanio indice Codigo: 68
+[INFO] 12:26:06:36 NUCLEO/(23563:23577): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 12:26:06:37 NUCLEO/(23563:23577): Se envia el tamanio 75 del buffer indice de Stack al proceso CPU
+[INFO] 12:26:06:37 NUCLEO/(23563:23577): se envia la lista de indice de stack de 1 elementos al proceso CPU - Tamanio indice Stack: 75
+[INFO] 12:26:06:37 NUCLEO/(23563:23577): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 11
+[INFO] 12:26:06:37 NUCLEO/(23563:23577): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 12:26:06:37 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:26:22:160 NUCLEO/(23563:23577): message size received: 8 
+[INFO] 12:26:22:160 NUCLEO/(23563:23577): Bytes received from process 'CPU': 4
+[INFO] 12:26:22:160 NUCLEO/(23563:23577): Processing CPU message received
+[INFO] 12:26:22:160 NUCLEO/(23563:23577): Processing CPU message 
+[INFO] 12:26:22:160 NUCLEO/(23563:23577):  'imprimir' 
+[INFO] 12:26:22:200 NUCLEO/(23563:23577): Enviar valor '21' a PID #1
+[INFO] 12:26:22:200 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:27:12:528 NUCLEO/(23563:23577): message size received: 8 
+[INFO] 12:27:12:528 NUCLEO/(23563:23577): Bytes received from process 'CPU': 4
+[INFO] 12:27:12:528 NUCLEO/(23563:23577): Processing CPU message received
+[INFO] 12:27:12:528 NUCLEO/(23563:23577): Processing CPU message 
+[INFO] 12:27:12:528 NUCLEO/(23563:23577):  'entradaSalida' 
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): ... Espera (sleep) por Entrada-Salida ...
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Saco el proceso #1 de cola IO 0 y lo transfiero a cola de Listos 
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): message size received: 8 
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Bytes received from process 'CPU': 4
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Processing CPU message received
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Processing CPU message 
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Se procesa la atencion del corte por Quantum
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Recibiendo PCB (stack) para el PID: 1 modificado por el CPU de socket: 6 
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): size de listaCPU: 1
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Se tomo el socket CPU '6' para enviar un PCB
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): se realiza el traspaso de datosPCB para en enviarle al proceso CPU
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Se envia el mensaje basico del PCB al proceso CPU de bufferSize: 32
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): se envia la lista de indice de codigo de 8 elementos al proceso CPU - Tamanio indice Codigo: 68
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): serializo la lista indice de stack para preparar su envio al proceso CPU
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): Se envia el tamanio 75 del buffer indice de Stack al proceso CPU
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): se envia la lista de indice de stack de 1 elementos al proceso CPU - Tamanio indice Stack: 75
+[INFO] 12:27:13:529 NUCLEO/(23563:23577): se envia el indice de etiquetas al proceso CPU - Tamanio indice Etiquetas: 11
+[INFO] 12:27:13:530 NUCLEO/(23563:23577): Se completa el envio de todos los mensajes al proceso CPU y se esperara una respuesta
+[INFO] 12:27:13:530 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:27:13:734 NUCLEO/(23563:23577): message size received: 0 
+[ERROR] 12:27:13:734 NUCLEO/(23563:23577): The client went down while receiving! - Please check the client '6' is down!
+[INFO] 12:27:13:734 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:27:13:734 NUCLEO/(23563:23577): message size received: 0 
+[ERROR] 12:27:13:734 NUCLEO/(23563:23577): Error - No able to received - Error receiving from socket '6', with error: 9
+[INFO] 12:27:13:734 NUCLEO/(23563:23577): Socket client connected to NUCLEO: 6
+[INFO] 12:27:13:734 NUCLEO/(23563:23577): message size received: 0 
+[ERROR] 12:27:13:734 NUCLEO/(23563:23577): Error - No able to received - Error receiving from socket '6', with error: 9
+[ERROR] 01:13:50:800 NUCLEO/(23563:23577): The client went down while receiving! - Please check the client '8' is down!

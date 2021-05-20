@@ -1,0 +1,136 @@
+[INFO] 11:56:52:814 CPU/(23533:23533): Connected to UMC - Message: The server has accepted your connection!
+[INFO] 11:56:52:815 CPU/(23533:23533): Receiving frame size
+[INFO] 11:56:52:815 CPU/(23533:23533): Tamanio de pagina: 64
+[INFO] 11:56:52:815 CPU/(23533:23533): CPU connected to UMC successfully
+[INFO] 11:56:52:816 CPU/(23533:23533): Connected to NUCLEO - Message: The server has accepted your connection!
+[INFO] 11:56:52:816 CPU/(23533:23533): Receiving stack size (number of pages for PID stack)
+[INFO] 11:56:52:816 CPU/(23533:23533): Tamanio de stack: 8
+[INFO] 11:56:52:816 CPU/(23533:23533): CPU connected to NUCLEO successfully
+[INFO] 11:56:52:816 CPU/(23533:23533): Waiting new PCB from NUCLEO....
+[INFO] 11:57:11:268 CPU/(23533:23533): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 11:57:11:268 CPU/(23533:23533): Construyendo PCB para PID #2
+[INFO] 11:57:11:268 CPU/(23533:23533): Tamanio indice Codigo 44 - Cantidad de elementos indice de codigo 5 - Proceso '2'
+[INFO] 11:57:11:269 CPU/(23533:23533): Tamanio indice stack 0 - Proceso '2'
+[INFO] 11:57:11:269 CPU/(23533:23533): funcion: 'etiqueta'
+[INFO] 11:57:11:269 CPU/(23533:23533): posicionDeLaEtiqueta: 0
+[INFO] 11:57:11:269 CPU/(23533:23533): Tamanio indice de Etiquetas 13 - Proceso '2'
+[INFO] 11:57:11:269 CPU/(23533:23533): El PCB del proceso '2' fue recibido correctamente
+[INFO] 11:57:11:269 CPU/(23533:23533): Contexto de ejecucion recibido - Process ID : 2 - PC : 0
+[INFO] 11:57:20:117 CPU/(23533:23533): PID: '2' - Current program line: '0' - Instruction --> 	wait b
+
+[INFO] 11:57:20:117 CPU/(23533:23533):  'waitPrimitive' 
+[INFO] 11:57:21:155 CPU/(23533:23533): Contexto de ejecucion recibido - Process ID : 2 - PC : 1
+[INFO] 11:57:29:195 CPU/(23533:23533): PID: '2' - Current program line: '1' - Instruction --> 		!colas = !colas +1
+
+[INFO] 11:57:29:195 CPU/(23533:23533):  'obtenerValorCompartida' 
+[INFO] 11:57:29:235 CPU/(23533:23533): se recibio correctamente el valor '0' de la shared var 'colas'
+[INFO] 11:57:29:235 CPU/(23533:23533):  'asignarValorCompartida' 
+[INFO] 11:57:30:239 CPU/(23533:23533): Contexto de ejecucion recibido - Process ID : 2 - PC : 2
+[INFO] 11:57:38:279 CPU/(23533:23533): PID: '2' - Current program line: '2' - Instruction --> 	signal c
+
+[INFO] 11:57:38:279 CPU/(23533:23533):  'signalPrimitive' 
+[INFO] 11:57:39:279 CPU/(23533:23533): PID: '2' - Sending PCB due to QUANTUM OVER
+[INFO] 11:57:39:279 CPU/(23533:23533): Destroy PCB processed...
+[INFO] 11:57:39:279 CPU/(23533:23533): Waiting new PCB from NUCLEO....
+[INFO] 12:25:06:430 CPU/(23569:23569): Connected to UMC - Message: The server has accepted your connection!
+[INFO] 12:25:06:430 CPU/(23569:23569): Receiving frame size
+[INFO] 12:25:06:430 CPU/(23569:23569): Tamanio de pagina: 64
+[INFO] 12:25:06:430 CPU/(23569:23569): CPU connected to UMC successfully
+[INFO] 12:25:06:431 CPU/(23569:23569): Connected to NUCLEO - Message: The server has accepted your connection!
+[INFO] 12:25:06:431 CPU/(23569:23569): Receiving stack size (number of pages for PID stack)
+[INFO] 12:25:06:431 CPU/(23569:23569): Tamanio de stack: 8
+[INFO] 12:25:06:431 CPU/(23569:23569): CPU connected to NUCLEO successfully
+[INFO] 12:25:06:431 CPU/(23569:23569): Waiting new PCB from NUCLEO....
+[INFO] 12:25:15:777 CPU/(23569:23569): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 12:25:15:777 CPU/(23569:23569): Construyendo PCB para PID #1
+[INFO] 12:25:15:777 CPU/(23569:23569): Tamanio indice Codigo 68 - Cantidad de elementos indice de codigo 8 - Proceso '1'
+[INFO] 12:25:15:777 CPU/(23569:23569): Tamanio indice stack 0 - Proceso '1'
+[INFO] 12:25:15:777 CPU/(23569:23569): funcion: 'inicio'
+[INFO] 12:25:15:777 CPU/(23569:23569): posicionDeLaEtiqueta: 2
+[INFO] 12:25:15:777 CPU/(23569:23569): Tamanio indice de Etiquetas 11 - Proceso '1'
+[INFO] 12:25:15:777 CPU/(23569:23569): El PCB del proceso '1' fue recibido correctamente
+[INFO] 12:25:15:777 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 0
+[INFO] 12:25:22:858 CPU/(23569:23569): PID: '1' - Current program line: '0' - Instruction --> variables f, i, t
+
+[INFO] 12:25:22:858 CPU/(23569:23569):  'definirVariable' 
+[INFO] 12:25:22:858 CPU/(23569:23569): Variable 'f' - Pagina '11', Offset '0', Size '4' 
+[INFO] 12:25:26:860 CPU/(23569:23569): Variable 'f' SAVED in UMC SUCCESSFULLY
+[INFO] 12:25:26:860 CPU/(23569:23569):  'definirVariable' 
+[INFO] 12:25:26:860 CPU/(23569:23569): Variable 'i' - Pagina '11', Offset '4', Size '4' 
+[INFO] 12:25:30:862 CPU/(23569:23569): Variable 'i' SAVED in UMC SUCCESSFULLY
+[INFO] 12:25:30:862 CPU/(23569:23569):  'definirVariable' 
+[INFO] 12:25:30:862 CPU/(23569:23569): Variable 't' - Pagina '11', Offset '8', Size '4' 
+[INFO] 12:25:34:863 CPU/(23569:23569): Variable 't' SAVED in UMC SUCCESSFULLY
+[INFO] 12:25:35:864 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 1
+[INFO] 12:25:43:908 CPU/(23569:23569): PID: '1' - Current program line: '1' - Instruction --> 	f=20
+
+[INFO] 12:25:43:908 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:25:43:908 CPU/(23569:23569): Variable 'f' - Pagina '11', Offset '0', Size '4' 
+[INFO] 12:25:43:908 CPU/(23569:23569):  'asignar' 
+[INFO] 12:25:47:910 CPU/(23569:23569): PID: '1' - Writing value '20' in page '#11' went SUCCESS
+[INFO] 12:25:48:911 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 2
+[INFO] 12:25:56:956 CPU/(23569:23569): PID: '1' - Current program line: '2' - Instruction --> 	i=i+1
+
+[INFO] 12:25:56:956 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:25:56:956 CPU/(23569:23569): Variable 'i' - Pagina '11', Offset '4', Size '4' 
+[INFO] 12:25:56:956 CPU/(23569:23569):  'dereferenciar' 
+[INFO] 12:25:56:956 CPU/(23569:23569): Dereferencing --> Pagina '11', Offset '4', Size '4'
+[INFO] 12:26:00:996 CPU/(23569:23569): Value received for dereferencing '20'
+[INFO] 12:26:00:996 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:26:00:996 CPU/(23569:23569): Variable 'i' - Pagina '11', Offset '4', Size '4' 
+[INFO] 12:26:00:996 CPU/(23569:23569):  'asignar' 
+[INFO] 12:26:04:998 CPU/(23569:23569): PID: '1' - Writing value '21' in page '#11' went SUCCESS
+[INFO] 12:26:05:998 CPU/(23569:23569): PID: '1' - Sending PCB due to QUANTUM OVER
+[INFO] 12:26:05:998 CPU/(23569:23569): Destroy PCB processed...
+[INFO] 12:26:05:998 CPU/(23569:23569): Waiting new PCB from NUCLEO....
+[INFO] 12:26:06:37 CPU/(23569:23569): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 12:26:06:37 CPU/(23569:23569): Construyendo PCB para PID #1
+[INFO] 12:26:06:37 CPU/(23569:23569): Tamanio indice Codigo 68 - Cantidad de elementos indice de codigo 8 - Proceso '1'
+[INFO] 12:26:06:37 CPU/(23569:23569): Tamanio indice stack 75 - Proceso '1'
+[INFO] 12:26:06:37 CPU/(23569:23569): funcion: 'inicio'
+[INFO] 12:26:06:37 CPU/(23569:23569): posicionDeLaEtiqueta: 2
+[INFO] 12:26:06:37 CPU/(23569:23569): Tamanio indice de Etiquetas 11 - Proceso '1'
+[INFO] 12:26:06:37 CPU/(23569:23569): El PCB del proceso '1' fue recibido correctamente
+[INFO] 12:26:06:37 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 3
+[INFO] 12:26:18:120 CPU/(23569:23569): PID: '1' - Current program line: '3' - Instruction --> 	print i
+
+[INFO] 12:26:18:120 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:26:18:120 CPU/(23569:23569): Variable 'i' - Pagina '11', Offset '4', Size '4' 
+[INFO] 12:26:18:120 CPU/(23569:23569):  'dereferenciar' 
+[INFO] 12:26:18:120 CPU/(23569:23569): Dereferencing --> Pagina '11', Offset '4', Size '4'
+[INFO] 12:26:22:160 CPU/(23569:23569): Value received for dereferencing '21'
+[INFO] 12:26:22:160 CPU/(23569:23569):  'imprimir' 
+[INFO] 12:26:23:161 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 4
+[INFO] 12:26:39:284 CPU/(23569:23569): PID: '1' - Current program line: '4' - Instruction --> 	t=f-i
+
+[INFO] 12:26:39:284 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:26:39:284 CPU/(23569:23569): Variable 'f' - Pagina '11', Offset '0', Size '4' 
+[INFO] 12:26:39:284 CPU/(23569:23569):  'dereferenciar' 
+[INFO] 12:26:39:284 CPU/(23569:23569): Dereferencing --> Pagina '11', Offset '0', Size '4'
+[INFO] 12:26:43:324 CPU/(23569:23569): Value received for dereferencing '21'
+[INFO] 12:26:43:324 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:26:43:324 CPU/(23569:23569): Variable 'i' - Pagina '11', Offset '4', Size '4' 
+[INFO] 12:26:43:324 CPU/(23569:23569):  'dereferenciar' 
+[INFO] 12:26:43:324 CPU/(23569:23569): Dereferencing --> Pagina '11', Offset '4', Size '4'
+[INFO] 12:26:47:364 CPU/(23569:23569): Value received for dereferencing '-1'
+[INFO] 12:26:47:364 CPU/(23569:23569):  'obtenerPosicionVariable' 
+[INFO] 12:26:47:364 CPU/(23569:23569): Variable 't' - Pagina '11', Offset '8', Size '4' 
+[INFO] 12:26:47:364 CPU/(23569:23569):  'asignar' 
+[INFO] 12:26:51:366 CPU/(23569:23569): PID: '1' - Writing value '22' in page '#11' went SUCCESS
+[INFO] 12:26:52:367 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 5
+[INFO] 12:27:12:528 CPU/(23569:23569): PID: '1' - Current program line: '5' - Instruction --> 	io HDD1 3
+
+[INFO] 12:27:12:528 CPU/(23569:23569):  'entradaSalida' 
+[INFO] 12:27:12:528 CPU/(23569:23569): Proceso: #1 en entradaSalida por dispositivo 'HDD1' de '3' unidades de tiempo 
+[INFO] 12:27:13:529 CPU/(23569:23569): PID: '1' - Sending PCB due to QUANTUM OVER
+[INFO] 12:27:13:529 CPU/(23569:23569): Destroy PCB processed...
+[INFO] 12:27:13:529 CPU/(23569:23569): Waiting new PCB from NUCLEO....
+[INFO] 12:27:13:530 CPU/(23569:23569): Message size received from process 'NUCLEO' in socket cliente '5': 24
+[INFO] 12:27:13:530 CPU/(23569:23569): Construyendo PCB para PID #1
+[INFO] 12:27:13:530 CPU/(23569:23569): Tamanio indice Codigo 68 - Cantidad de elementos indice de codigo 8 - Proceso '1'
+[INFO] 12:27:13:530 CPU/(23569:23569): Tamanio indice stack 75 - Proceso '1'
+[INFO] 12:27:13:530 CPU/(23569:23569): funcion: 'inicio'
+[INFO] 12:27:13:530 CPU/(23569:23569): posicionDeLaEtiqueta: 2
+[INFO] 12:27:13:530 CPU/(23569:23569): Tamanio indice de Etiquetas 11 - Proceso '1'
+[INFO] 12:27:13:530 CPU/(23569:23569): El PCB del proceso '1' fue recibido correctamente
+[INFO] 12:27:13:530 CPU/(23569:23569): Contexto de ejecucion recibido - Process ID : 1 - PC : 8
